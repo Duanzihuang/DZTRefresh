@@ -13,6 +13,7 @@
 		18D1717A1D0C0CBD00B27129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D171781D0C0CBD00B27129 /* Main.storyboard */; };
 		18D1717C1D0C0CBD00B27129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D1717B1D0C0CBD00B27129 /* Assets.xcassets */; };
 		18D1717F1D0C0CBD00B27129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D1717D1D0C0CBD00B27129 /* LaunchScreen.storyboard */; };
+		18D171891D0C0D5300B27129 /* DZTRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D171881D0C0D5300B27129 /* DZTRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		18D1717B1D0C0CBD00B27129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D1717E1D0C0CBD00B27129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D171801D0C0CBD00B27129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D171871D0C0D5300B27129 /* DZTRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTRefresh.h; sourceTree = "<group>"; };
+		18D171881D0C0D5300B27129 /* DZTRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTRefresh.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		18D1716E1D0C0CBD00B27129 /* DZTRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				18D171861D0C0D3800B27129 /* Classes */,
 				18D171721D0C0CBD00B27129 /* AppDelegate.h */,
 				18D171731D0C0CBD00B27129 /* AppDelegate.m */,
 				18D171751D0C0CBD00B27129 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				18D171701D0C0CBD00B27129 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D171861D0C0D3800B27129 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18D171871D0C0D5300B27129 /* DZTRefresh.h */,
+				18D171881D0C0D5300B27129 /* DZTRefresh.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D171891D0C0D5300B27129 /* DZTRefresh.m in Sources */,
 				18D171771D0C0CBD00B27129 /* ViewController.m in Sources */,
 				18D171741D0C0CBD00B27129 /* AppDelegate.m in Sources */,
 				18D171711D0C0CBD00B27129 /* main.m in Sources */,
